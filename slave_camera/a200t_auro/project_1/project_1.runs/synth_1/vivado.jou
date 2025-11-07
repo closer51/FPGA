@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov  7 18:05:03 2025
+# Process ID: 9584
+# Current directory: E:/camara/a200t_auro/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log XC7A200_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source XC7A200_TOP.tcl
+# Log file: E:/camara/a200t_auro/project_1/project_1.runs/synth_1/XC7A200_TOP.vds
+# Journal file: E:/camara/a200t_auro/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source XC7A200_TOP.tcl -notrace

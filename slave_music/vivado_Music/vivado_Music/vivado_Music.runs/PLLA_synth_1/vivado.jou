@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  3 19:25:48 2025
+# Process ID: 2616
+# Current directory: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/PLLA_synth_1
+# Command line: vivado.exe -log PLLA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PLLA.tcl
+# Log file: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/PLLA_synth_1/PLLA.vds
+# Journal file: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/PLLA_synth_1\vivado.jou
+#-----------------------------------------------------------
+source PLLA.tcl -notrace

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Sep 28 23:03:22 2025
+# Process ID: 6180
+# Current directory: e:/auro/a200t/aurora_8b10b_in_core_ex
+# Command line: vivado.exe -notrace -source e:/auro/a200t/project_1/project_1.srcs/sources_1/ip/aurora_8b10b_in_core/aurora_8b10b_in_core_ex.tcl
+# Log file: e:/auro/a200t/aurora_8b10b_in_core_ex/vivado.log
+# Journal file: e:/auro/a200t/aurora_8b10b_in_core_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source e:/auro/a200t/project_1/project_1.srcs/sources_1/ip/aurora_8b10b_in_core/aurora_8b10b_in_core_ex.tcl -notrace
+update_compile_order -fileset sources_1

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 13 22:31:49 2025
+# Process ID: 16748
+# Current directory: E:/camara_gt_new/a200t_auro/project_1/project_1.runs/async_fifo_2048x8b_synth_1
+# Command line: vivado.exe -log async_fifo_2048x8b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source async_fifo_2048x8b.tcl
+# Log file: E:/camara_gt_new/a200t_auro/project_1/project_1.runs/async_fifo_2048x8b_synth_1/async_fifo_2048x8b.vds
+# Journal file: E:/camara_gt_new/a200t_auro/project_1/project_1.runs/async_fifo_2048x8b_synth_1\vivado.jou
+#-----------------------------------------------------------
+source async_fifo_2048x8b.tcl -notrace

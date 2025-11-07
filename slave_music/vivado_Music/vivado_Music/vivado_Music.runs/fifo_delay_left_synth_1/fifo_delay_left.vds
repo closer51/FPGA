@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  3 22:27:35 2025
+# Process ID: 15420
+# Current directory: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/fifo_delay_left_synth_1
+# Command line: vivado.exe -log fifo_delay_left.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_delay_left.tcl
+# Log file: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/fifo_delay_left_synth_1/fifo_delay_left.vds
+# Journal file: E:/a00aa_music/vivado_Music/vivado_Music/vivado_Music.runs/fifo_delay_left_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_delay_left.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP fifo_delay_left, cache-ID = 14f6e6e51686b9c0.
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  3 22:27:39 2025...

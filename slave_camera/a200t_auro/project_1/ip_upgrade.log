@@ -1,0 +1,214 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Sep 25 20:52:46 2025
+| Host         : PC-1000-times running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'aurora_8b10b_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of aurora_8b10b_0 (xilinx.com:ip:aurora_8b10b:11.1 (Rev. 7)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Unable to set the value 'bottom' on parameter 'C ROW USED' due to the following failure - 
+Value 'bottom' is out of the range for parameter 'C ROW USED(C_ROW_USED)' for IP 'aurora_8b10b_0' . Valid values are - top, top
+. Restoring to an old valid value of 'top'
+
+An attempt to modify the value of disabled parameter 'C_GT_LOC_1' from 'X' to '1' has been ignored for IP 'aurora_8b10b_0'
+
+Unable to set the value 'X' on parameter 'C GT LOC 9' due to the following failure - 
+. Restoring to an old valid value of '1'
+
+Unable to set the value 'GTPQ0' on parameter 'C GT CLOCK 1' due to the following failure - 
+Value 'GTPQ0' is out of the range for parameter 'C GT CLOCK 1(C_GT_CLOCK_1)' for IP 'aurora_8b10b_0' . Valid values are - GTPQ2
+. Restoring to an old valid value of 'GTPQ2'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:aurora_8b10b:11.1 -user_name aurora_8b10b_0
+set_property -dict "\
+  CONFIG.Backchannel_mode {Sidebands} \
+  CONFIG.CHANNEL_ENABLE {X0Y0} \
+  CONFIG.C_AURORA_LANES {1} \
+  CONFIG.C_COLUMN_USED {None} \
+  CONFIG.C_DOCCPORT_ENABLE {false} \
+  CONFIG.C_DOUBLE_GTRXRESET {false} \
+  CONFIG.C_DRP_IF {true} \
+  CONFIG.C_EXAMPLE_SIMULATION {false} \
+  CONFIG.C_GTWIZ_OUT {false} \
+  CONFIG.C_GT_CLOCK_1 {GTPQ0} \
+  CONFIG.C_GT_CLOCK_2 {None} \
+  CONFIG.C_GT_LOC_1 {1} \
+  CONFIG.C_GT_LOC_10 {X} \
+  CONFIG.C_GT_LOC_11 {X} \
+  CONFIG.C_GT_LOC_12 {X} \
+  CONFIG.C_GT_LOC_13 {X} \
+  CONFIG.C_GT_LOC_14 {X} \
+  CONFIG.C_GT_LOC_15 {X} \
+  CONFIG.C_GT_LOC_16 {X} \
+  CONFIG.C_GT_LOC_17 {X} \
+  CONFIG.C_GT_LOC_18 {X} \
+  CONFIG.C_GT_LOC_19 {X} \
+  CONFIG.C_GT_LOC_2 {X} \
+  CONFIG.C_GT_LOC_20 {X} \
+  CONFIG.C_GT_LOC_21 {X} \
+  CONFIG.C_GT_LOC_22 {X} \
+  CONFIG.C_GT_LOC_23 {X} \
+  CONFIG.C_GT_LOC_24 {X} \
+  CONFIG.C_GT_LOC_25 {X} \
+  CONFIG.C_GT_LOC_26 {X} \
+  CONFIG.C_GT_LOC_27 {X} \
+  CONFIG.C_GT_LOC_28 {X} \
+  CONFIG.C_GT_LOC_29 {X} \
+  CONFIG.C_GT_LOC_3 {X} \
+  CONFIG.C_GT_LOC_30 {X} \
+  CONFIG.C_GT_LOC_31 {X} \
+  CONFIG.C_GT_LOC_32 {X} \
+  CONFIG.C_GT_LOC_33 {X} \
+  CONFIG.C_GT_LOC_34 {X} \
+  CONFIG.C_GT_LOC_35 {X} \
+  CONFIG.C_GT_LOC_36 {X} \
+  CONFIG.C_GT_LOC_37 {X} \
+  CONFIG.C_GT_LOC_38 {X} \
+  CONFIG.C_GT_LOC_39 {X} \
+  CONFIG.C_GT_LOC_4 {X} \
+  CONFIG.C_GT_LOC_40 {X} \
+  CONFIG.C_GT_LOC_41 {X} \
+  CONFIG.C_GT_LOC_42 {X} \
+  CONFIG.C_GT_LOC_43 {X} \
+  CONFIG.C_GT_LOC_44 {X} \
+  CONFIG.C_GT_LOC_45 {X} \
+  CONFIG.C_GT_LOC_46 {X} \
+  CONFIG.C_GT_LOC_47 {X} \
+  CONFIG.C_GT_LOC_48 {X} \
+  CONFIG.C_GT_LOC_5 {X} \
+  CONFIG.C_GT_LOC_6 {X} \
+  CONFIG.C_GT_LOC_7 {X} \
+  CONFIG.C_GT_LOC_8 {X} \
+  CONFIG.C_GT_LOC_9 {X} \
+  CONFIG.C_INIT_CLK {100} \
+  CONFIG.C_LANE_WIDTH {4} \
+  CONFIG.C_LINE_RATE {6.25} \
+  CONFIG.C_REFCLK_FREQUENCY {125.000} \
+  CONFIG.C_REFCLK_SOURCE {none} \
+  CONFIG.C_ROW_USED {bottom} \
+  CONFIG.C_START_LANE {X0Y0} \
+  CONFIG.C_START_QUAD {X0Y0} \
+  CONFIG.C_UCOLUMN_USED {right} \
+  CONFIG.C_USE_BYTESWAP {false} \
+  CONFIG.C_USE_CHIPSCOPE {false} \
+  CONFIG.C_USE_CRC {false} \
+  CONFIG.C_USE_SCRAMBLER {true} \
+  CONFIG.C_active_transceiverquads {1} \
+  CONFIG.Component_Name {aurora_8b10b_0} \
+  CONFIG.DRP_FREQ {100} \
+  CONFIG.Dataflow_Config {Duplex} \
+  CONFIG.Flow_Mode {None} \
+  CONFIG.INS_LOSS_NYQ {14} \
+  CONFIG.Interface_Mode {Framing} \
+  CONFIG.RX_COUPLING {AC} \
+  CONFIG.RX_EQ_MODE {AUTO} \
+  CONFIG.RX_PPM_OFFSET {200} \
+  CONFIG.RX_TERMINATION {PROGRAMMABLE} \
+  CONFIG.RX_TERMINATION_PROG_VALUE {800} \
+  CONFIG.SINGLEEND_GTREFCLK {false} \
+  CONFIG.SINGLEEND_INITCLK {false} \
+  CONFIG.SupportLevel {0} \
+  CONFIG.TransceiverControl {false} \
+  CONFIG.USER_DATA_M_AXI_RX.CLK_DOMAIN {} \
+  CONFIG.USER_DATA_M_AXI_RX.FREQ_HZ {100000000} \
+  CONFIG.USER_DATA_M_AXI_RX.HAS_TKEEP {1} \
+  CONFIG.USER_DATA_M_AXI_RX.HAS_TLAST {1} \
+  CONFIG.USER_DATA_M_AXI_RX.HAS_TREADY {0} \
+  CONFIG.USER_DATA_M_AXI_RX.HAS_TSTRB {0} \
+  CONFIG.USER_DATA_M_AXI_RX.INSERT_VIP {0} \
+  CONFIG.USER_DATA_M_AXI_RX.LAYERED_METADATA {undef} \
+  CONFIG.USER_DATA_M_AXI_RX.PHASE {0.000} \
+  CONFIG.USER_DATA_M_AXI_RX.TDATA_NUM_BYTES {4} \
+  CONFIG.USER_DATA_M_AXI_RX.TDEST_WIDTH {0} \
+  CONFIG.USER_DATA_M_AXI_RX.TID_WIDTH {0} \
+  CONFIG.USER_DATA_M_AXI_RX.TUSER_WIDTH {0} \
+  CONFIG.USER_DATA_S_AXI_TX.CLK_DOMAIN {} \
+  CONFIG.USER_DATA_S_AXI_TX.FREQ_HZ {100000000} \
+  CONFIG.USER_DATA_S_AXI_TX.HAS_TKEEP {1} \
+  CONFIG.USER_DATA_S_AXI_TX.HAS_TLAST {1} \
+  CONFIG.USER_DATA_S_AXI_TX.HAS_TREADY {1} \
+  CONFIG.USER_DATA_S_AXI_TX.HAS_TSTRB {0} \
+  CONFIG.USER_DATA_S_AXI_TX.INSERT_VIP {0} \
+  CONFIG.USER_DATA_S_AXI_TX.LAYERED_METADATA {undef} \
+  CONFIG.USER_DATA_S_AXI_TX.PHASE {0.000} \
+  CONFIG.USER_DATA_S_AXI_TX.TDATA_NUM_BYTES {4} \
+  CONFIG.USER_DATA_S_AXI_TX.TDEST_WIDTH {0} \
+  CONFIG.USER_DATA_S_AXI_TX.TID_WIDTH {0} \
+  CONFIG.USER_DATA_S_AXI_TX.TUSER_WIDTH {0} \
+  CONFIG.drpclk.ASSOCIATED_BUSIF {GT0_DRP:GT1_DRP:GT2_DRP:GT3_DRP:GT4_DRP:GT5_DRP:GT6_DRP:GT7_DRP:GT8_DRP:GT9_DRP:GT10_DRP:GT11_DRP:GT12_DRP:GT13_DRP:GT14_DRP:GT15_DRP} \
+  CONFIG.drpclk.ASSOCIATED_RESET {} \
+  CONFIG.drpclk.CLK_DOMAIN {} \
+  CONFIG.drpclk.FREQ_HZ {100000000} \
+  CONFIG.drpclk.INSERT_VIP {0} \
+  CONFIG.drpclk.PHASE {0.000} \
+  CONFIG.gt_drp_clk_in.ASSOCIATED_BUSIF {GT0_DRP_IF:GT1_DRP_IF:GT2_DRP_IF:GT3_DRP_IF:GT4_DRP_IF:GT5_DRP_IF:GT6_DRP_IF:GT7_DRP_IF:GT8_DRP_IF:GT9_DRP_IF:GT10_DRP_IF:GT11_DRP_IF:GT12_DRP_IF:GT13_DRP_IF:GT14_DRP_IF:GT15_DRP_IF} \
+  CONFIG.gt_drp_clk_in.ASSOCIATED_RESET {} \
+  CONFIG.gt_drp_clk_in.CLK_DOMAIN {} \
+  CONFIG.gt_drp_clk_in.FREQ_HZ {100000000} \
+  CONFIG.gt_drp_clk_in.INSERT_VIP {0} \
+  CONFIG.gt_drp_clk_in.PHASE {0.000} \
+  CONFIG.gt_refclk1.ASSOCIATED_BUSIF {} \
+  CONFIG.gt_refclk1.ASSOCIATED_RESET {} \
+  CONFIG.gt_refclk1.CLK_DOMAIN {} \
+  CONFIG.gt_refclk1.FREQ_HZ {100000000} \
+  CONFIG.gt_refclk1.INSERT_VIP {0} \
+  CONFIG.gt_refclk1.PHASE {0.000} \
+  CONFIG.gt_reset.INSERT_VIP {0} \
+  CONFIG.gt_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.init_clk_in.ASSOCIATED_BUSIF {gt_reset} \
+  CONFIG.init_clk_in.ASSOCIATED_RESET {} \
+  CONFIG.init_clk_in.CLK_DOMAIN {} \
+  CONFIG.init_clk_in.FREQ_HZ {100000000} \
+  CONFIG.init_clk_in.INSERT_VIP {0} \
+  CONFIG.init_clk_in.PHASE {0.000} \
+  CONFIG.link_reset_out.INSERT_VIP {0} \
+  CONFIG.link_reset_out.POLARITY {ACTIVE_HIGH} \
+  CONFIG.reset.INSERT_VIP {0} \
+  CONFIG.reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.sync_clk.ASSOCIATED_BUSIF {} \
+  CONFIG.sync_clk.ASSOCIATED_RESET {} \
+  CONFIG.sync_clk.CLK_DOMAIN {} \
+  CONFIG.sync_clk.FREQ_HZ {100000000} \
+  CONFIG.sync_clk.INSERT_VIP {0} \
+  CONFIG.sync_clk.PHASE {0.000} \
+  CONFIG.sys_reset_out.INSERT_VIP {0} \
+  CONFIG.sys_reset_out.POLARITY {ACTIVE_HIGH} \
+  CONFIG.tx_out_clk.ASSOCIATED_BUSIF {} \
+  CONFIG.tx_out_clk.ASSOCIATED_RESET {} \
+  CONFIG.tx_out_clk.CLK_DOMAIN {} \
+  CONFIG.tx_out_clk.FREQ_HZ {100000000} \
+  CONFIG.tx_out_clk.INSERT_VIP {0} \
+  CONFIG.tx_out_clk.PHASE {0.000} \
+  CONFIG.user_clk.ASSOCIATED_BUSIF {USER_DATA_S_AXI_TX:USER_DATA_M_AXI_RX:UFC_S_AXI_TX:UFC_M_AXI_RX:NFC_S_AXI_TX:NFC_M_AXI_RX} \
+  CONFIG.user_clk.ASSOCIATED_RESET {sys_reset_out} \
+  CONFIG.user_clk.CLK_DOMAIN {} \
+  CONFIG.user_clk.FREQ_HZ {100000000} \
+  CONFIG.user_clk.INSERT_VIP {0} \
+  CONFIG.user_clk.PHASE {0.000} " [get_ips aurora_8b10b_0]
+
+

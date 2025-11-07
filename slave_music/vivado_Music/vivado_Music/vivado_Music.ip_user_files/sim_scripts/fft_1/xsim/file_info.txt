@@ -1,0 +1,2 @@
+fft.vhd,vhdl,xil_defaultlib,../../../../vivado_Music.srcs/sources_1/ip/fft_1/sim/fft.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v
