@@ -1,0 +1,300 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date             : Fri Nov  7 22:31:54 2025
+| Host             : PC-1000-times running 64-bit major release  (build 9200)
+| Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+| Design           : top
+| Device           : xc7a200tfbg484-2
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 2.181        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 2.019        |
+| Device Static (W)        | 0.163        |
+| Effective TJA (C/W)      | 2.5          |
+| Max Ambient (C)          | 79.6         |
+| Junction Temperature (C) | 30.4         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.119 |       48 |       --- |             --- |
+| Slice Logic              |     0.055 |    65292 |       --- |             --- |
+|   LUT as Logic           |     0.048 |    24556 |    133800 |           18.35 |
+|   Register               |     0.003 |    27086 |    267600 |           10.12 |
+|   CARRY4                 |     0.003 |     2166 |     33450 |            6.48 |
+|   LUT as Distributed RAM |    <0.001 |     1216 |     46200 |            2.63 |
+|   BUFG                   |    <0.001 |        8 |        32 |           25.00 |
+|   LUT as Shift Register  |    <0.001 |      659 |     46200 |            1.43 |
+|   F7/F8 Muxes            |    <0.001 |      572 |    133800 |            0.43 |
+|   Others                 |    <0.001 |     2550 |       --- |             --- |
+|   BUFR                   |     0.000 |        1 |       160 |            0.63 |
+| Signals                  |     0.087 |    47834 |       --- |             --- |
+| Block RAM                |     0.016 |     53.5 |       365 |           14.66 |
+| MMCM                     |     0.532 |        5 |        10 |           50.00 |
+| PLL                      |     0.092 |        1 |        10 |           10.00 |
+| DSPs                     |     0.002 |        6 |       740 |            0.81 |
+| I/O                      |     0.644 |      147 |       285 |           51.58 |
+| GTP                      |     0.218 |        2 |       --- |             --- |
+| PHASER                   |     0.250 |       26 |       --- |             --- |
+| XADC                     |     0.004 |        1 |       --- |             --- |
+| Static Power             |     0.163 |          |           |                 |
+| Total                    |     2.181 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.417 |       0.378 |      0.039 |
+| Vccaux    |       1.800 |     0.589 |       0.558 |      0.031 |
+| Vcco33    |       3.300 |     0.036 |       0.031 |      0.005 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.221 |       0.216 |      0.005 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.003 |       0.001 |      0.002 |
+| MGTAVcc   |       1.000 |     0.106 |       0.104 |      0.002 |
+| MGTAVtt   |       1.200 |     0.087 |       0.085 |      0.003 |
+| Vccadc    |       1.800 |     0.022 |       0.002 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 2.5                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.2                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                                                                                     | Domain                                                                                                                                                                                                                                         | Constraint (ns) |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| aurora_module_u0/aurora_channel_u0/aurora_8b10b_0_u0/inst/gt_wrapper_i/aurora_8b10b_0_multi_gt_i/gt0_aurora_8b10b_0_i/gtpe2_i/TXOUTCLK                    | aurora_module_u0/aurora_channel_u0/aurora_8b10b_0_u0/inst/gt_wrapper_i/aurora_8b10b_0_multi_gt_i/gt0_aurora_8b10b_0_i/tx_out_clk                                                                                                               |            16.0 |
+| aurora_module_u0/aurora_channel_u1/aurora_8b10b_0_u0/inst/gt_wrapper_i/aurora_8b10b_0_multi_gt_i/gt0_aurora_8b10b_0_i/gtpe2_i/TXOUTCLK                    | aurora_module_u0/aurora_channel_u1/aurora_8b10b_0_u0/inst/gt_wrapper_i/aurora_8b10b_0_multi_gt_i/gt0_aurora_8b10b_0_i/tx_out_clk                                                                                                               |            16.0 |
+| clk_out1_mmcm                                                                                                                                             | mmcm_u0/inst/clk_out1_mmcm                                                                                                                                                                                                                     |            10.0 |
+| clk_out1_mmcm_125                                                                                                                                         | mmcm_125_u0/inst/clk_out1_mmcm_125                                                                                                                                                                                                             |             8.0 |
+| clk_out2_mmcm                                                                                                                                             | mmcm_u0/inst/clk_out2_mmcm                                                                                                                                                                                                                     |            20.0 |
+| clk_out2_mmcm_125                                                                                                                                         | mmcm_125_u0/inst/clk_out2_mmcm_125                                                                                                                                                                                                             |             5.0 |
+| clk_out3_mmcm                                                                                                                                             | mmcm_u0/inst/clk_out3_mmcm                                                                                                                                                                                                                     |            20.0 |
+| clk_out3_mmcm_125                                                                                                                                         | mmcm_125_u0/inst/clk_out3_mmcm_125                                                                                                                                                                                                             |             8.0 |
+| clk_pll_i                                                                                                                                                 | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/clk_pll_i                                                                                                                                    |            10.0 |
+| clkfbout                                                                                                                                                  | aurora_module_u0/aurora_channel_u0/aurora_8b10b_0_CLOCK_MODULE_u0/clkfbout                                                                                                                                                                     |            16.0 |
+| clkfbout_1                                                                                                                                                | aurora_module_u0/aurora_channel_u1/aurora_8b10b_0_CLOCK_MODULE_u0/clkfbout                                                                                                                                                                     |            16.0 |
+| clkfbout_mmcm                                                                                                                                             | mmcm_u0/inst/clkfbout_mmcm                                                                                                                                                                                                                     |            20.0 |
+| clkfbout_mmcm_125                                                                                                                                         | mmcm_125_u0/inst/clkfbout_mmcm_125                                                                                                                                                                                                             |            10.0 |
+| clkout0                                                                                                                                                   | aurora_module_u0/aurora_channel_u0/aurora_8b10b_0_CLOCK_MODULE_u0/clkout0                                                                                                                                                                      |            32.0 |
+| clkout0_1                                                                                                                                                 | aurora_module_u0/aurora_channel_u1/aurora_8b10b_0_CLOCK_MODULE_u0/clkout0                                                                                                                                                                      |            32.0 |
+| clkout1                                                                                                                                                   | aurora_module_u0/aurora_channel_u0/aurora_8b10b_0_CLOCK_MODULE_u0/clkout1                                                                                                                                                                      |            16.0 |
+| clkout1_1                                                                                                                                                 | aurora_module_u0/aurora_channel_u1/aurora_8b10b_0_CLOCK_MODULE_u0/clkout1                                                                                                                                                                      |            16.0 |
+| dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK                                                                | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/tck_bs                                                                                                                                                                           |            33.0 |
+| freq_refclk                                                                                                                                               | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/freq_refclk                                                                                                                                  |             1.3 |
+| i_clk                                                                                                                                                     | i_clk                                                                                                                                                                                                                                          |            20.0 |
+| iserdes_clkdiv                                                                                                                                            | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/iserdes_clkdiv       |            10.0 |
+| iserdes_clkdiv_1                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/iserdes_clkdiv       |            10.0 |
+| iserdes_clkdiv_2                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clkdiv       |            10.0 |
+| iserdes_clkdiv_3                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clkdiv       |            10.0 |
+| mem_refclk                                                                                                                                                | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/mem_refclk                                                                                                                                   |             2.5 |
+| oserdes_clk                                                                                                                                               | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             2.5 |
+| oserdes_clk_1                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             2.5 |
+| oserdes_clk_2                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             2.5 |
+| oserdes_clk_3                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             2.5 |
+| oserdes_clk_4                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             2.5 |
+| oserdes_clk_5                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             2.5 |
+| oserdes_clk_6                                                                                                                                             | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             2.5 |
+| oserdes_clkdiv                                                                                                                                            | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clkdiv       |             5.0 |
+| oserdes_clkdiv_1                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clkdiv       |             5.0 |
+| oserdes_clkdiv_2                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clkdiv       |             5.0 |
+| oserdes_clkdiv_3                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clkdiv       |             5.0 |
+| oserdes_clkdiv_4                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clkdiv       |            10.0 |
+| oserdes_clkdiv_5                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clkdiv       |            10.0 |
+| oserdes_clkdiv_6                                                                                                                                          | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clkdiv       |            10.0 |
+| pll_clk3_out                                                                                                                                              | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/pll_clk3_out                                                                                                                                 |            10.0 |
+| pll_clkfbout                                                                                                                                              | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/pll_clkfbout                                                                                                                                 |             5.0 |
+| sync_pulse                                                                                                                                                | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr3_infrastructure/sync_pulse                                                                                                                                   |            40.0 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/iserdes_clk | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/A_rst_primitives_reg |             2.5 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/iserdes_clk | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/A_rst_primitives_reg |             2.5 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/A_rst_primitives_reg |             2.5 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk | design_1_wrapper_u0/design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/A_rst_primitives_reg |             2.5 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++--------------------------------------+-----------+
+| Name                                 | Power (W) |
++--------------------------------------+-----------+
+| top                                  |     2.019 |
+|   AXIS_BUF_2CLK_updata_u1            |     0.001 |
+|   AXI_Master_Drive_u0                |     0.001 |
+|   CLK_DIV_module_1M_u0               |     0.001 |
+|   DDR_Ctrl_u0                        |     0.007 |
+|     FIFO_16X1024_u0                  |     0.002 |
+|       U0                             |     0.002 |
+|     FIFO_16X1024_u1                  |     0.002 |
+|       U0                             |     0.002 |
+|     FIFO_32X512_U0                   |     0.002 |
+|       U0                             |     0.002 |
+|   GMII2RGMII_Drive_u0                |     0.036 |
+|     RGMII_RAM_u0                     |     0.011 |
+|       FIFO_ASYNC_11_64_u0            |     0.001 |
+|       RAM_8_1600_U0                  |     0.002 |
+|     RGMII_Tri_u0                     |     0.025 |
+|   GMII2RGMII_Drive_u1                |     0.031 |
+|     RGMII_RAM_u0                     |     0.010 |
+|       RAM_8_1600_U0                  |     0.002 |
+|     RGMII_Tri_u0                     |     0.022 |
+|   UDP_Stack_Module_u0                |     0.015 |
+|     Data_2to1_ARP_IP_U0              |     0.002 |
+|     Data_2to1_ICMP_UDP               |     0.002 |
+|     Ethernet_ARP_u0                  |     0.003 |
+|       ARP_Table_u0                   |     0.001 |
+|     Ethernet_ICMP_u0                 |     0.001 |
+|     Ethernet_IP_u0                   |     0.002 |
+|       IP_tx_u0                       |     0.001 |
+|     Ethernet_MAC_u0                  |     0.005 |
+|       CRC_Data_Pro_u0                |     0.002 |
+|       MAC_tx_u0                      |     0.002 |
+|     Ethernet_UDP_u0                  |     0.001 |
+|   UDP_Stack_Module_u1                |     0.014 |
+|     Data_2to1_ARP_IP_U0              |     0.002 |
+|     Data_2to1_ICMP_UDP               |     0.001 |
+|     Ethernet_ARP_u0                  |     0.002 |
+|       ARP_Table_u0                   |     0.001 |
+|     Ethernet_ICMP_u0                 |     0.001 |
+|     Ethernet_IP_u0                   |     0.002 |
+|       IP_tx_u0                       |     0.001 |
+|     Ethernet_MAC_u0                  |     0.005 |
+|       CRC_Data_Pro_u0                |     0.001 |
+|       MAC_rx_u0                      |     0.001 |
+|       MAC_tx_u0                      |     0.002 |
+|     Ethernet_UDP_u0                  |     0.001 |
+|   UDP_Type_Gether_u0                 |     0.002 |
+|   Updata_TOP_u0                      |     0.001 |
+|   aurora_module_u0                   |     0.446 |
+|     aurora_channel_u0                |     0.223 |
+|       aurora_8b10b_0_CLOCK_MODULE_u0 |     0.112 |
+|       aurora_8b10b_0_u0              |     0.111 |
+|     aurora_channel_u1                |     0.223 |
+|       aurora_8b10b_0_CLOCK_MODULE_u0 |     0.112 |
+|       aurora_8b10b_0_u0              |     0.110 |
+|   cdc_scope_2_gether                 |     0.002 |
+|     FIFO_8X8192_2CLK_DATA            |     0.002 |
+|       U0                             |     0.002 |
+|   cdc_sfp_2_gether                   |     0.001 |
+|   cdc_spilt_2_scope_0                |     0.001 |
+|   cdc_udma_2_dds1_2                  |     0.001 |
+|   cdc_udma_2_dds1_3                  |     0.001 |
+|   cdc_udma_2_dds1_4                  |     0.001 |
+|   cdc_udma_2_dds1_5                  |     0.001 |
+|   cdc_udma_2_dds1_6                  |     0.001 |
+|   cdc_udma_2_dds2_2                  |     0.001 |
+|   cdc_udma_2_dds2_3                  |     0.001 |
+|   cdc_udma_2_dds2_4                  |     0.001 |
+|   cdc_udma_2_dds2_5                  |     0.001 |
+|   cdc_udma_2_dds2_6                  |     0.001 |
+|   cdc_udma_2_logic                   |     0.001 |
+|   dbg_hub                            |     0.002 |
+|     inst                             |     0.002 |
+|       BSCANID.u_xsdbm_id             |     0.002 |
+|   dds_single_channel_top_u0          |     0.015 |
+|     dds_ctrl_u0                      |     0.012 |
+|     dds_drive_u0                     |     0.002 |
+|   dds_single_channel_top_u1          |     0.015 |
+|     dds_ctrl_u0                      |     0.012 |
+|     dds_drive_u0                     |     0.002 |
+|   design_1_wrapper_u0                |     1.069 |
+|     design_1_i                       |     1.069 |
+|       mig_7series_0                  |     1.033 |
+|       smartconnect_0                 |     0.035 |
+|   flash_drive_updata_u0              |     0.002 |
+|     spi_drive_u0                     |     0.002 |
+|   mmcm_125_u0                        |     0.109 |
+|     inst                             |     0.109 |
+|   mmcm_u0                            |     0.106 |
+|     inst                             |     0.106 |
+|   scope_UDP_Packet_u0                |     0.004 |
+|   scope_top_u0                       |     0.002 |
+|   u_ila_0                            |     0.005 |
+|     inst                             |     0.005 |
+|       ila_core_inst                  |     0.005 |
+|   u_ila_1                            |     0.004 |
+|     inst                             |     0.004 |
+|       ila_core_inst                  |     0.004 |
+|   uart_adaptive_baud_rate_u0         |     0.001 |
++--------------------------------------+-----------+
+
+
