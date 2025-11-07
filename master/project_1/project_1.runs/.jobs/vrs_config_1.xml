@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ASYNC_FIFO_1X16_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/ASYNC_FIFO_1X16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X512_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X512_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mmcm_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/mmcm_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X8192_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X8192_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_16X16_2CLK_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_16X16_2CLK_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mmcm_125_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/mmcm_125_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X256_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X256_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_ASYNC_11_64_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_ASYNC_11_64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_32X16_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_32X16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_MAC_8X64_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_MAC_8X64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_8_1600_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/RAM_8_1600_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_MAC_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/RAM_MAC_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_IP_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/RAM_IP_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_8x1500_TrueDual_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/RAM_8x1500_TrueDual_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="RAM_8_1600_synth_1"/>
+	</Run>
+	<Run Id="FIFO_16X64_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_16X64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_11X64_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_11X64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X16_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X1024_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X1024_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X2048_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X2048_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_32X512_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_32X512_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_32to16_512_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_32to16_512_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_8X2048_2CLK_synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X2048_2CLK_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/a000_real/logic_eth/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ASYNC_FIFO_1X16_synth_1"/>
+		<Parent Id="FIFO_8X512_synth_1"/>
+		<Parent Id="mmcm_synth_1"/>
+		<Parent Id="FIFO_8X8192_synth_1"/>
+		<Parent Id="FIFO_16X16_2CLK_synth_1"/>
+		<Parent Id="mmcm_125_synth_1"/>
+		<Parent Id="FIFO_8X256_synth_1"/>
+		<Parent Id="FIFO_ASYNC_11_64_synth_1"/>
+		<Parent Id="FIFO_32X16_synth_1"/>
+		<Parent Id="FIFO_MAC_8X64_synth_1"/>
+		<Parent Id="RAM_8_1600_synth_1"/>
+		<Parent Id="RAM_MAC_synth_1"/>
+		<Parent Id="RAM_IP_synth_1"/>
+		<Parent Id="RAM_8x1500_TrueDual_synth_1"/>
+		<Parent Id="FIFO_16X64_synth_1"/>
+		<Parent Id="FIFO_11X64_synth_1"/>
+		<Parent Id="FIFO_8X16_synth_1"/>
+		<Parent Id="FIFO_8X1024_synth_1"/>
+		<Parent Id="FIFO_8X2048_synth_1"/>
+		<Parent Id="FIFO_32X512_synth_1"/>
+		<Parent Id="FIFO_32to16_512_synth_1"/>
+		<Parent Id="FIFO_8X2048_2CLK_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

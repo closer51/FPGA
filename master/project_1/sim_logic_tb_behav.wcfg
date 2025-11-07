@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_logic_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_logic_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="21292496000000fs"></ZoomStartTime>
+      <ZoomEndTime time="21294928000001fs"></ZoomEndTime>
+      <Cursor1Time time="21293344000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="282"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wave_markers>
+      <marker time="21294013000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_logic_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/protocol_clk" type="logic">
+         <obj_property name="ElementShortName">protocol_clk</obj_property>
+         <obj_property name="ObjectShortName">protocol_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/o_iic_scl" type="logic">
+         <obj_property name="ElementShortName">o_iic_scl</obj_property>
+         <obj_property name="ObjectShortName">o_iic_scl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/io_iic_sda" type="logic">
+         <obj_property name="ElementShortName">io_iic_sda</obj_property>
+         <obj_property name="ObjectShortName">io_iic_sda</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_drive" type="array">
+         <obj_property name="ElementShortName">ri_drive[6:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_drive[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_operation_addr" type="array">
+         <obj_property name="ElementShortName">ri_operation_addr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_operation_addr[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_operation_len" type="array">
+         <obj_property name="ElementShortName">ri_operation_len[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_operation_len[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_operation_type" type="array">
+         <obj_property name="ElementShortName">ri_operation_type[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_operation_type[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_opeartion_valid" type="logic">
+         <obj_property name="ElementShortName">ri_opeartion_valid</obj_property>
+         <obj_property name="ObjectShortName">ri_opeartion_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/ri_write_data" type="array">
+         <obj_property name="ElementShortName">ri_write_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_write_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_operation_ready" type="logic">
+         <obj_property name="ElementShortName">w_operation_ready</obj_property>
+         <obj_property name="ObjectShortName">w_operation_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_write_req" type="logic">
+         <obj_property name="ElementShortName">w_write_req</obj_property>
+         <obj_property name="ObjectShortName">w_write_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/r_logic_pulse" type="logic">
+         <obj_property name="ElementShortName">r_logic_pulse</obj_property>
+         <obj_property name="ObjectShortName">r_logic_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/r_logic_frq_sel" type="array">
+         <obj_property name="ElementShortName">r_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_logic_frq_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_sam_clk" type="logic">
+         <obj_property name="ElementShortName">w_sam_clk</obj_property>
+         <obj_property name="ObjectShortName">w_sam_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_sam_rst" type="logic">
+         <obj_property name="ElementShortName">w_sam_rst</obj_property>
+         <obj_property name="ObjectShortName">w_sam_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_spi_clk" type="logic">
+         <obj_property name="ElementShortName">w_spi_clk</obj_property>
+         <obj_property name="ObjectShortName">w_spi_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_spi_cs" type="logic">
+         <obj_property name="ElementShortName">w_spi_cs</obj_property>
+         <obj_property name="ObjectShortName">w_spi_cs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_spi_mosi" type="logic">
+         <obj_property name="ElementShortName">w_spi_mosi</obj_property>
+         <obj_property name="ObjectShortName">w_spi_mosi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_spi_miso" type="logic">
+         <obj_property name="ElementShortName">w_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">w_spi_miso</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/w_uart_tx" type="logic">
+         <obj_property name="ElementShortName">w_uart_tx</obj_property>
+         <obj_property name="ObjectShortName">w_uart_tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group196" type="group">
+      <obj_property name="label">logic_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_logic_pulse" type="logic">
+         <obj_property name="ElementShortName">i_logic_pulse</obj_property>
+         <obj_property name="ObjectShortName">i_logic_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_logic_frq_sel" type="array">
+         <obj_property name="ElementShortName">i_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_logic_trig_model" type="array">
+         <obj_property name="ElementShortName">i_logic_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_logic_trig_model[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_logic_trig_channel" type="array">
+         <obj_property name="ElementShortName">i_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_logic_ready" type="logic">
+         <obj_property name="ElementShortName">o_logic_ready</obj_property>
+         <obj_property name="ObjectShortName">o_logic_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/i_logic_data" type="array">
+         <obj_property name="ElementShortName">i_logic_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_logic_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_sam_data" type="array">
+         <obj_property name="ElementShortName">o_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_sam_data_vld" type="logic">
+         <obj_property name="ElementShortName">o_sam_data_vld</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_sam_data_last" type="logic">
+         <obj_property name="ElementShortName">o_sam_data_last</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_sam_rst" type="logic">
+         <obj_property name="ElementShortName">o_sam_rst</obj_property>
+         <obj_property name="ObjectShortName">o_sam_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ro_logic_ready" type="logic">
+         <obj_property name="ElementShortName">ro_logic_ready</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ri_logic_pulse" type="logic">
+         <obj_property name="ElementShortName">ri_logic_pulse</obj_property>
+         <obj_property name="ObjectShortName">ri_logic_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ri_logic_frq_sel" type="array">
+         <obj_property name="ElementShortName">ri_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ri_logic_trig_model" type="array">
+         <obj_property name="ElementShortName">ri_logic_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_logic_trig_model[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ri_logic_trig_channel" type="array">
+         <obj_property name="ElementShortName">ri_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_d_gen_run" type="logic">
+         <obj_property name="ElementShortName">r_d_gen_run</obj_property>
+         <obj_property name="ObjectShortName">r_d_gen_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ro_sam_data" type="array">
+         <obj_property name="ElementShortName">ro_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/o_sam_clk" type="logic">
+         <obj_property name="ElementShortName">o_sam_clk</obj_property>
+         <obj_property name="ObjectShortName">o_sam_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_assemble_cnt" type="array">
+         <obj_property name="ElementShortName">r_assemble_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_assemble_cnt[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_fifo_iic_rd_en" type="logic">
+         <obj_property name="ElementShortName">r_fifo_iic_rd_en</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_iic_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_iic_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_iic_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_iic_dout[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_spi_dnum" type="array">
+         <obj_property name="ElementShortName">r_spi_dnum[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_dnum[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_spi_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_spi_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_spi_dout[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_fifo_spi_rd_en" type="logic">
+         <obj_property name="ElementShortName">r_fifo_spi_rd_en</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_spi_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_spi_data" type="array">
+         <obj_property name="ElementShortName">w_spi_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_spi_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_fifo_uart_rd_en" type="logic">
+         <obj_property name="ElementShortName">r_fifo_uart_rd_en</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_uart_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_uart_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_uart_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_uart_dout[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_uart_dnum" type="array">
+         <obj_property name="ElementShortName">r_uart_dnum[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_uart_dnum[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/r_iic_dnum" type="array">
+         <obj_property name="ElementShortName">r_iic_dnum[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_iic_dnum[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ro_sam_data_vld" type="logic">
+         <obj_property name="ElementShortName">ro_sam_data_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data_vld</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/ro_sam_data_last" type="logic">
+         <obj_property name="ElementShortName">ro_sam_data_last</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_dout_pulse" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dout_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dout_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_empty_pulse" type="logic">
+         <obj_property name="ElementShortName">w_fifo_empty_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_empty_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_full_pulse" type="logic">
+         <obj_property name="ElementShortName">w_fifo_full_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_full_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_read_pulse" type="logic">
+         <obj_property name="ElementShortName">w_fifo_read_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_read_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_sam_clk" type="logic">
+         <obj_property name="ElementShortName">w_sam_clk</obj_property>
+         <obj_property name="ObjectShortName">w_sam_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_sam_clk_rst" type="logic">
+         <obj_property name="ElementShortName">w_sam_clk_rst</obj_property>
+         <obj_property name="ObjectShortName">w_sam_clk_rst</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_pulse_pos" type="logic">
+         <obj_property name="ElementShortName">w_pulse_pos</obj_property>
+         <obj_property name="ObjectShortName">w_pulse_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/IIC_START" type="logic">
+         <obj_property name="ElementShortName">IIC_START</obj_property>
+         <obj_property name="ObjectShortName">IIC_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/IIC_END" type="logic">
+         <obj_property name="ElementShortName">IIC_END</obj_property>
+         <obj_property name="ObjectShortName">IIC_END</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/IIC_DATA_OUTPUT" type="array">
+         <obj_property name="ElementShortName">IIC_DATA_OUTPUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IIC_DATA_OUTPUT[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/IIC_DATA_OUTPUT_VLD" type="logic">
+         <obj_property name="ElementShortName">IIC_DATA_OUTPUT_VLD</obj_property>
+         <obj_property name="ObjectShortName">IIC_DATA_OUTPUT_VLD</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_rx_spi_data_valid" type="logic">
+         <obj_property name="ElementShortName">w_rx_spi_data_valid</obj_property>
+         <obj_property name="ObjectShortName">w_rx_spi_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_rx_spi_data" type="array">
+         <obj_property name="ElementShortName">w_rx_spi_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_rx_spi_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_rx_uart_data" type="array">
+         <obj_property name="ElementShortName">w_rx_uart_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_rx_uart_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_rx_uart_valid" type="logic">
+         <obj_property name="ElementShortName">w_rx_uart_valid</obj_property>
+         <obj_property name="ObjectShortName">w_rx_uart_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_sam_data" type="array">
+         <obj_property name="ElementShortName">w_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_sam_data_vld" type="logic">
+         <obj_property name="ElementShortName">w_sam_data_vld</obj_property>
+         <obj_property name="ObjectShortName">w_sam_data_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_sam_data_last" type="logic">
+         <obj_property name="ElementShortName">w_sam_data_last</obj_property>
+         <obj_property name="ObjectShortName">w_sam_data_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_iic_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_iic_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_iic_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_iic_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_iic_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_iic_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_spi_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_spi_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_spi_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_spi_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_spi_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_spi_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_uart_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_uart_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_uart_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/w_fifo_uart_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_uart_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_uart_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/P_SEND_LEN" type="array">
+         <obj_property name="ElementShortName">P_SEND_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_SEND_LEN[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group238" type="group">
+      <obj_property name="label">data_gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_sam_vld" type="logic">
+         <obj_property name="ElementShortName">i_sam_vld</obj_property>
+         <obj_property name="ObjectShortName">i_sam_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/o_fifo_read" type="logic">
+         <obj_property name="ElementShortName">o_fifo_read</obj_property>
+         <obj_property name="ObjectShortName">o_fifo_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_sam_trig_model" type="array">
+         <obj_property name="ElementShortName">i_sam_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sam_trig_model[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_sam_trig_channel" type="array">
+         <obj_property name="ElementShortName">i_sam_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sam_trig_channel[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_sam_data" type="array">
+         <obj_property name="ElementShortName">i_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/o_sam_data" type="array">
+         <obj_property name="ElementShortName">o_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/o_sam_data_vld" type="logic">
+         <obj_property name="ElementShortName">o_sam_data_vld</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/o_sam_data_last" type="logic">
+         <obj_property name="ElementShortName">o_sam_data_last</obj_property>
+         <obj_property name="ObjectShortName">o_sam_data_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_vld" type="logic">
+         <obj_property name="ElementShortName">ri_sam_vld</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ro_fifo_read" type="logic">
+         <obj_property name="ElementShortName">ro_fifo_read</obj_property>
+         <obj_property name="ObjectShortName">ro_fifo_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_trig_model" type="array">
+         <obj_property name="ElementShortName">ri_sam_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_trig_model[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_trig_channel" type="array">
+         <obj_property name="ElementShortName">ri_sam_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_trig_channel[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_data" type="array">
+         <obj_property name="ElementShortName">ri_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_data_1d" type="array">
+         <obj_property name="ElementShortName">ri_sam_data_1d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_data_1d[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ri_sam_data_2d" type="array">
+         <obj_property name="ElementShortName">ri_sam_data_2d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_sam_data_2d[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ro_sam_data" type="array">
+         <obj_property name="ElementShortName">ro_sam_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ro_sam_data_vld" type="logic">
+         <obj_property name="ElementShortName">ro_sam_data_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/ro_sam_data_last" type="logic">
+         <obj_property name="ElementShortName">ro_sam_data_last</obj_property>
+         <obj_property name="ObjectShortName">ro_sam_data_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_sam_trig_true_tab" type="array">
+         <obj_property name="ElementShortName">r_sam_trig_true_tab[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sam_trig_true_tab[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_detect_vld" type="logic">
+         <obj_property name="ElementShortName">r_detect_vld</obj_property>
+         <obj_property name="ObjectShortName">r_detect_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_dout_cnt" type="array">
+         <obj_property name="ElementShortName">r_dout_cnt[12:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dout_cnt[12:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_detect_vld_run" type="logic">
+         <obj_property name="ElementShortName">r_detect_vld_run</obj_property>
+         <obj_property name="ObjectShortName">r_detect_vld_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/r_sam_vld_pos" type="logic">
+         <obj_property name="ElementShortName">r_sam_vld_pos</obj_property>
+         <obj_property name="ObjectShortName">r_sam_vld_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_sam_vld_pos" type="logic">
+         <obj_property name="ElementShortName">w_sam_vld_pos</obj_property>
+         <obj_property name="ObjectShortName">w_sam_vld_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_sam_posedge" type="array">
+         <obj_property name="ElementShortName">w_sam_posedge[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sam_posedge[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_sam_negedge" type="array">
+         <obj_property name="ElementShortName">w_sam_negedge[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sam_negedge[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_sam_edge" type="array">
+         <obj_property name="ElementShortName">w_sam_edge[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sam_edge[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_0" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_0</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_1" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_1</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_2" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_2</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_3" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_3</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_4" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_4</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_5" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_5</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_6" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_6</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_7" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_7</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/w_detect_vld_pos" type="logic">
+         <obj_property name="ElementShortName">w_detect_vld_pos</obj_property>
+         <obj_property name="ObjectShortName">w_detect_vld_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/sample_data_gen_u0/P_SEND_LEN" type="array">
+         <obj_property name="ElementShortName">P_SEND_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_SEND_LEN[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group399" type="group">
+      <obj_property name="label">spi_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/sys_clk" type="logic">
+         <obj_property name="ElementShortName">sys_clk</obj_property>
+         <obj_property name="ObjectShortName">sys_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_cs" type="logic">
+         <obj_property name="ElementShortName">spi_cs</obj_property>
+         <obj_property name="ObjectShortName">spi_cs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_clk" type="logic">
+         <obj_property name="ElementShortName">spi_clk</obj_property>
+         <obj_property name="ObjectShortName">spi_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_mosi" type="logic">
+         <obj_property name="ElementShortName">spi_mosi</obj_property>
+         <obj_property name="ObjectShortName">spi_mosi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_spi_data_valid" type="logic">
+         <obj_property name="ElementShortName">rx_spi_data_valid</obj_property>
+         <obj_property name="ObjectShortName">rx_spi_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_data" type="array">
+         <obj_property name="ElementShortName">spi_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_cs_reg" type="array">
+         <obj_property name="ElementShortName">spi_cs_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_cs_reg[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_clk_reg" type="array">
+         <obj_property name="ElementShortName">spi_clk_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_clk_reg[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_mosi_reg" type="array">
+         <obj_property name="ElementShortName">spi_mosi_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mosi_reg[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/cap" type="logic">
+         <obj_property name="ElementShortName">cap</obj_property>
+         <obj_property name="ObjectShortName">cap</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_clk_pos" type="logic">
+         <obj_property name="ElementShortName">spi_clk_pos</obj_property>
+         <obj_property name="ObjectShortName">spi_clk_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_clk_neg" type="logic">
+         <obj_property name="ElementShortName">spi_clk_neg</obj_property>
+         <obj_property name="ObjectShortName">spi_clk_neg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_en" type="logic">
+         <obj_property name="ElementShortName">rx_en</obj_property>
+         <obj_property name="ObjectShortName">rx_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_cs_posedge" type="logic">
+         <obj_property name="ElementShortName">spi_cs_posedge</obj_property>
+         <obj_property name="ObjectShortName">spi_cs_posedge</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_bit_cnt" type="array">
+         <obj_property name="ElementShortName">rx_bit_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_bit_cnt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/spi_cs_0" type="logic">
+         <obj_property name="ElementShortName">spi_cs_0</obj_property>
+         <obj_property name="ObjectShortName">spi_cs_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_data_valid" type="logic">
+         <obj_property name="ElementShortName">rx_data_valid</obj_property>
+         <obj_property name="ObjectShortName">rx_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/rx_data_valid_1d" type="logic">
+         <obj_property name="ElementShortName">rx_data_valid_1d</obj_property>
+         <obj_property name="ObjectShortName">rx_data_valid_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/BITS_LEN" type="array">
+         <obj_property name="ElementShortName">BITS_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BITS_LEN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/CPOL" type="logic">
+         <obj_property name="ElementShortName">CPOL</obj_property>
+         <obj_property name="ObjectShortName">CPOL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_logic_tb/logic_top/spi_stream_rx_u0/CPHA" type="logic">
+         <obj_property name="ElementShortName">CPHA</obj_property>
+         <obj_property name="ObjectShortName">CPHA</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

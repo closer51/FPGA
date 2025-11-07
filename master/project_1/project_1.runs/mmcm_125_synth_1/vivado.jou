@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  3 04:59:13 2025
+# Process ID: 14996
+# Current directory: E:/a000_real/logic_eth/project_1/project_1.runs/mmcm_125_synth_1
+# Command line: vivado.exe -log mmcm_125.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mmcm_125.tcl
+# Log file: E:/a000_real/logic_eth/project_1/project_1.runs/mmcm_125_synth_1/mmcm_125.vds
+# Journal file: E:/a000_real/logic_eth/project_1/project_1.runs/mmcm_125_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mmcm_125.tcl -notrace

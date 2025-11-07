@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  2 20:40:34 2025
+# Process ID: 6468
+# Current directory: E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X2048_2CLK_synth_1
+# Command line: vivado.exe -log FIFO_8X2048_2CLK.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIFO_8X2048_2CLK.tcl
+# Log file: E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X2048_2CLK_synth_1/FIFO_8X2048_2CLK.vds
+# Journal file: E:/a000_real/logic_eth/project_1/project_1.runs/FIFO_8X2048_2CLK_synth_1\vivado.jou
+#-----------------------------------------------------------
+source FIFO_8X2048_2CLK.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP FIFO_8X2048_2CLK, cache-ID = 8b0b5b26a4e0d1f3.
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  2 20:40:39 2025...

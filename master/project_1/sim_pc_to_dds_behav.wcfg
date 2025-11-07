@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_pc_to_dds_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_pc_to_dds" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4237190000000fs"></ZoomStartTime>
+      <ZoomEndTime time="4287540000001fs"></ZoomEndTime>
+      <Cursor1Time time="4245740000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="277"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="4262225000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group481" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_udma_tx_data" type="array">
+         <obj_property name="ElementShortName">r_udma_tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_udma_tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_udma_tx_valid" type="logic">
+         <obj_property name="ElementShortName">r_udma_tx_valid</obj_property>
+         <obj_property name="ObjectShortName">r_udma_tx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_rx" type="logic">
+         <obj_property name="ElementShortName">w_uart_rx</obj_property>
+         <obj_property name="ObjectShortName">w_uart_rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_tx" type="logic">
+         <obj_property name="ElementShortName">w_uart_tx</obj_property>
+         <obj_property name="ObjectShortName">w_uart_tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_tx_data" type="array">
+         <obj_property name="ElementShortName">w_uart_tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_uart_tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_tx_valid" type="logic">
+         <obj_property name="ElementShortName">w_uart_tx_valid</obj_property>
+         <obj_property name="ObjectShortName">w_uart_tx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_tx_ready" type="logic">
+         <obj_property name="ElementShortName">w_uart_tx_ready</obj_property>
+         <obj_property name="ObjectShortName">w_uart_tx_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_clk" type="logic">
+         <obj_property name="ElementShortName">w_uart_clk</obj_property>
+         <obj_property name="ObjectShortName">w_uart_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_uart_rst" type="logic">
+         <obj_property name="ElementShortName">w_uart_rst</obj_property>
+         <obj_property name="ObjectShortName">w_uart_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_sam_clk" type="logic">
+         <obj_property name="ElementShortName">w_sam_clk</obj_property>
+         <obj_property name="ObjectShortName">w_sam_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_sam_rst" type="logic">
+         <obj_property name="ElementShortName">w_sam_rst</obj_property>
+         <obj_property name="ObjectShortName">w_sam_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/w_lfsr_value" type="array">
+         <obj_property name="ElementShortName">w_lfsr_value[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_lfsr_value[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_send_len" type="array">
+         <obj_property name="ElementShortName">r_send_len[16:0]</obj_property>
+         <obj_property name="ObjectShortName">r_send_len[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_run" type="array">
+         <obj_property name="ElementShortName">r_dds1_run[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_run[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_type" type="array">
+         <obj_property name="ElementShortName">r_dds1_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_frq" type="array">
+         <obj_property name="ElementShortName">r_dds1_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_amp" type="array">
+         <obj_property name="ElementShortName">r_dds1_amp[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_amp[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_offset" type="array">
+         <obj_property name="ElementShortName">r_dds1_offset[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_offset[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_pha" type="array">
+         <obj_property name="ElementShortName">r_dds1_pha[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_pha[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds1_duty" type="array">
+         <obj_property name="ElementShortName">r_dds1_duty[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_duty[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_run" type="array">
+         <obj_property name="ElementShortName">r_dds2_run[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_run[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_type" type="array">
+         <obj_property name="ElementShortName">r_dds2_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_frq" type="array">
+         <obj_property name="ElementShortName">r_dds2_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_amp" type="array">
+         <obj_property name="ElementShortName">r_dds2_amp[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_amp[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_offset" type="array">
+         <obj_property name="ElementShortName">r_dds2_offset[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_offset[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_pha" type="array">
+         <obj_property name="ElementShortName">r_dds2_pha[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_pha[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/r_dds2_duty" type="array">
+         <obj_property name="ElementShortName">r_dds2_duty[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds2_duty[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group496" type="group">
+      <obj_property name="label">rec_dma</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_uart_rx_data" type="array">
+         <obj_property name="ElementShortName">i_uart_rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_uart_rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_uart_rx_valid" type="logic">
+         <obj_property name="ElementShortName">i_uart_rx_valid</obj_property>
+         <obj_property name="ObjectShortName">i_uart_rx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_uart_tx_data" type="array">
+         <obj_property name="ElementShortName">o_uart_tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_uart_tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_uart_tx_valid" type="logic">
+         <obj_property name="ElementShortName">o_uart_tx_valid</obj_property>
+         <obj_property name="ObjectShortName">o_uart_tx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_uart_tx_ready" type="logic">
+         <obj_property name="ElementShortName">i_uart_tx_ready</obj_property>
+         <obj_property name="ObjectShortName">i_uart_tx_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_user_rx_data" type="array">
+         <obj_property name="ElementShortName">o_user_rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_user_rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_user_rx_valid" type="logic">
+         <obj_property name="ElementShortName">o_user_rx_valid</obj_property>
+         <obj_property name="ObjectShortName">o_user_rx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_user_rx_last" type="logic">
+         <obj_property name="ElementShortName">o_user_rx_last</obj_property>
+         <obj_property name="ObjectShortName">o_user_rx_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/o_user_rx_len" type="array">
+         <obj_property name="ElementShortName">o_user_rx_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_user_rx_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_user_tx_data" type="array">
+         <obj_property name="ElementShortName">i_user_tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_user_tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_user_tx_valid" type="logic">
+         <obj_property name="ElementShortName">i_user_tx_valid</obj_property>
+         <obj_property name="ObjectShortName">i_user_tx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/Uart_DMA_u0/i_logic_send_model" type="logic">
+         <obj_property name="ElementShortName">i_logic_send_model</obj_property>
+         <obj_property name="ObjectShortName">i_logic_send_model</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group579" type="group">
+      <obj_property name="label">spilt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/i_udma_data" type="array">
+         <obj_property name="ElementShortName">i_udma_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_udma_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/i_udma_vld" type="logic">
+         <obj_property name="ElementShortName">i_udma_vld</obj_property>
+         <obj_property name="ObjectShortName">i_udma_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_logic_pulse" type="logic">
+         <obj_property name="ElementShortName">o_logic_pulse</obj_property>
+         <obj_property name="ObjectShortName">o_logic_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_logic_frq_sel" type="array">
+         <obj_property name="ElementShortName">o_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_logic_frq_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_logic_trig_model" type="array">
+         <obj_property name="ElementShortName">o_logic_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_logic_trig_model[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_logic_trig_channel" type="array">
+         <obj_property name="ElementShortName">o_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_logic_trig_channel[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_logic_send_model" type="logic">
+         <obj_property name="ElementShortName">o_logic_send_model</obj_property>
+         <obj_property name="ObjectShortName">o_logic_send_model</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_run" type="logic">
+         <obj_property name="ElementShortName">o_dds1_run</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_run_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_run_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_type" type="array">
+         <obj_property name="ElementShortName">o_dds1_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_type_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_type_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_frq" type="array">
+         <obj_property name="ElementShortName">o_dds1_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_frq_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_amp" type="array">
+         <obj_property name="ElementShortName">o_dds1_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_amp[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_amp_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_p2p" type="array">
+         <obj_property name="ElementShortName">o_dds1_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_p2p[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_offset" type="array">
+         <obj_property name="ElementShortName">o_dds1_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_offset[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_offset_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_phase" type="array">
+         <obj_property name="ElementShortName">o_dds1_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_phase[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_phase_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_duty" type="array">
+         <obj_property name="ElementShortName">o_dds1_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds1_duty_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds1_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_run" type="logic">
+         <obj_property name="ElementShortName">o_dds2_run</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_run_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_run_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_type" type="array">
+         <obj_property name="ElementShortName">o_dds2_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_type_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_type_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_frq" type="array">
+         <obj_property name="ElementShortName">o_dds2_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_frq_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_amp" type="array">
+         <obj_property name="ElementShortName">o_dds2_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_amp[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_amp_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_p2p" type="array">
+         <obj_property name="ElementShortName">o_dds2_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_p2p[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_offset" type="array">
+         <obj_property name="ElementShortName">o_dds2_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_offset[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_offset_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_phase" type="array">
+         <obj_property name="ElementShortName">o_dds2_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_phase[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_phase_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_duty" type="array">
+         <obj_property name="ElementShortName">o_dds2_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/o_dds2_duty_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds2_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds2_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ri_udma_data" type="array">
+         <obj_property name="ElementShortName">ri_udma_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_udma_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ri_udma_vld" type="logic">
+         <obj_property name="ElementShortName">ri_udma_vld</obj_property>
+         <obj_property name="ObjectShortName">ri_udma_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_logic_pulse" type="logic">
+         <obj_property name="ElementShortName">ro_logic_pulse</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_logic_frq_sel" type="array">
+         <obj_property name="ElementShortName">ro_logic_frq_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_frq_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_logic_trig_model" type="array">
+         <obj_property name="ElementShortName">ro_logic_trig_model[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_trig_model[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_logic_trig_channel" type="array">
+         <obj_property name="ElementShortName">ro_logic_trig_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_trig_channel[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_logic_send_model" type="logic">
+         <obj_property name="ElementShortName">ro_logic_send_model</obj_property>
+         <obj_property name="ObjectShortName">ro_logic_send_model</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_run" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_run</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_run_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_run_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_type" type="array">
+         <obj_property name="ElementShortName">ro_dds1_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_type_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_type_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_frq" type="array">
+         <obj_property name="ElementShortName">ro_dds1_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_frq_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_amp" type="array">
+         <obj_property name="ElementShortName">ro_dds1_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_amp[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_amp_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_p2p" type="array">
+         <obj_property name="ElementShortName">ro_dds1_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_p2p[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_offset" type="array">
+         <obj_property name="ElementShortName">ro_dds1_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_offset[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_offset_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_phase" type="array">
+         <obj_property name="ElementShortName">ro_dds1_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_phase[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_phase_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_duty" type="array">
+         <obj_property name="ElementShortName">ro_dds1_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds1_duty_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_run" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_run</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_run_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_run_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_type" type="array">
+         <obj_property name="ElementShortName">ro_dds2_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_type_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_type_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_frq" type="array">
+         <obj_property name="ElementShortName">ro_dds2_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_frq_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_amp" type="array">
+         <obj_property name="ElementShortName">ro_dds2_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_amp[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_amp_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_p2p" type="array">
+         <obj_property name="ElementShortName">ro_dds2_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_p2p[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_offset" type="array">
+         <obj_property name="ElementShortName">ro_dds2_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_offset[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_offset_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_phase" type="array">
+         <obj_property name="ElementShortName">ro_dds2_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_phase[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_phase_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_duty" type="array">
+         <obj_property name="ElementShortName">ro_dds2_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/ro_dds2_duty_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds2_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds2_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/uart_type_spilt_u0/r_uart_kind" type="array">
+         <obj_property name="ElementShortName">r_uart_kind[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_uart_kind[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group611" type="group">
+      <obj_property name="label">cdc1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_1/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group643" type="group">
+      <obj_property name="label">cdc2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_2/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group675" type="group">
+      <obj_property name="label">cdc3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_3/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group707" type="group">
+      <obj_property name="label">cdc4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_4/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group739" type="group">
+      <obj_property name="label">cdc5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_5/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group771" type="group">
+      <obj_property name="label">cdc6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_clk" type="logic">
+         <obj_property name="ElementShortName">i_per_clk</obj_property>
+         <obj_property name="ObjectShortName">i_per_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_rst" type="logic">
+         <obj_property name="ElementShortName">i_per_rst</obj_property>
+         <obj_property name="ObjectShortName">i_per_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_axis_data" type="array">
+         <obj_property name="ElementShortName">i_per_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_axis_user" type="array">
+         <obj_property name="ElementShortName">i_per_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_axis_valid" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_per_axis_last" type="logic">
+         <obj_property name="ElementShortName">i_per_axis_last</obj_property>
+         <obj_property name="ObjectShortName">i_per_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/o_per_axis_ready" type="logic">
+         <obj_property name="ElementShortName">o_per_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">o_per_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_post_clk" type="logic">
+         <obj_property name="ElementShortName">i_post_clk</obj_property>
+         <obj_property name="ObjectShortName">i_post_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_post_rst" type="logic">
+         <obj_property name="ElementShortName">i_post_rst</obj_property>
+         <obj_property name="ObjectShortName">i_post_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/o_post_axis_data" type="array">
+         <obj_property name="ElementShortName">o_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/o_post_axis_user" type="array">
+         <obj_property name="ElementShortName">o_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/o_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/o_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">o_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">o_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/i_post_axis_ready" type="logic">
+         <obj_property name="ElementShortName">i_post_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">i_post_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/ro_post_axis_data" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/ro_post_axis_user" type="array">
+         <obj_property name="ElementShortName">ro_post_axis_user[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_user[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/ro_post_axis_valid" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/ro_post_axis_last" type="logic">
+         <obj_property name="ElementShortName">ro_post_axis_last</obj_property>
+         <obj_property name="ObjectShortName">ro_post_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_fifo_len_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_fifo_len_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_len_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_len_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_cnt" type="array">
+         <obj_property name="ElementShortName">r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/r_len" type="array">
+         <obj_property name="ElementShortName">r_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_len_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_len_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_len_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/cdc_udma_2_dds1_6/w_fifo_len_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_len_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_len_empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group804" type="group">
+      <obj_property name="label">dds_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_run" type="logic">
+         <obj_property name="ElementShortName">i_dds_run</obj_property>
+         <obj_property name="ObjectShortName">i_dds_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_run_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_run_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_type" type="array">
+         <obj_property name="ElementShortName">i_dds_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_type[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_type_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_type_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_frq" type="array">
+         <obj_property name="ElementShortName">i_dds_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_frq[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_frq_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_amp" type="array">
+         <obj_property name="ElementShortName">i_dds_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_amp[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_amp_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_p2p" type="array">
+         <obj_property name="ElementShortName">i_dds_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_p2p[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_offset" type="array">
+         <obj_property name="ElementShortName">i_dds_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_offset[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_offset_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_phase" type="array">
+         <obj_property name="ElementShortName">i_dds_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_phase[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_phase_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_duty" type="array">
+         <obj_property name="ElementShortName">i_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/i_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/o_dds_data" type="array">
+         <obj_property name="ElementShortName">o_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds_data[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_dds_data" type="array">
+         <obj_property name="ElementShortName">w_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds_data[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_run" type="logic">
+         <obj_property name="ElementShortName">w_run</obj_property>
+         <obj_property name="ObjectShortName">w_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_run_vld" type="logic">
+         <obj_property name="ElementShortName">w_run_vld</obj_property>
+         <obj_property name="ObjectShortName">w_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_fword" type="array">
+         <obj_property name="ElementShortName">w_fword[26:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fword[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_fword_vld" type="logic">
+         <obj_property name="ElementShortName">w_fword_vld</obj_property>
+         <obj_property name="ObjectShortName">w_fword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_pword" type="array">
+         <obj_property name="ElementShortName">w_pword[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_pword[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_pword_vld" type="logic">
+         <obj_property name="ElementShortName">w_pword_vld</obj_property>
+         <obj_property name="ObjectShortName">w_pword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_mode" type="array">
+         <obj_property name="ElementShortName">w_mode[2:0]</obj_property>
+         <obj_property name="ObjectShortName">w_mode[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_mode_vld" type="logic">
+         <obj_property name="ElementShortName">w_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">w_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_dds_duty" type="array">
+         <obj_property name="ElementShortName">w_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds_duty[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">w_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">w_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/w_pay_dds_data" type="array">
+         <obj_property name="ElementShortName">w_pay_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_pay_dds_data[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/P_CNT" type="array">
+         <obj_property name="ElementShortName">P_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_CNT[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group853" type="group">
+      <obj_property name="label">dds_ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_run" type="logic">
+         <obj_property name="ElementShortName">i_dds_run</obj_property>
+         <obj_property name="ObjectShortName">i_dds_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_run_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_run_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_type" type="array">
+         <obj_property name="ElementShortName">i_dds_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_type[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_type_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_type_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_type_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_frq" type="array">
+         <obj_property name="ElementShortName">i_dds_frq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_frq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_frq_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_amp" type="array">
+         <obj_property name="ElementShortName">i_dds_amp[11:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_amp[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_amp_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_amp_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_amp_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_p2p" type="array">
+         <obj_property name="ElementShortName">i_dds_p2p[12:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_p2p[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_p2p_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_p2p_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_p2p_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_offset" type="array">
+         <obj_property name="ElementShortName">i_dds_offset[12:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_offset[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_offset_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_offset_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_offset_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_phase" type="array">
+         <obj_property name="ElementShortName">i_dds_phase[11:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_phase[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_phase_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_phase_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_phase_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_duty" type="array">
+         <obj_property name="ElementShortName">i_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/i_dds_data" type="array">
+         <obj_property name="ElementShortName">i_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_data[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_run" type="logic">
+         <obj_property name="ElementShortName">o_run</obj_property>
+         <obj_property name="ObjectShortName">o_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_run_vld" type="logic">
+         <obj_property name="ElementShortName">o_run_vld</obj_property>
+         <obj_property name="ObjectShortName">o_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_fword" type="array">
+         <obj_property name="ElementShortName">o_fword[26:0]</obj_property>
+         <obj_property name="ObjectShortName">o_fword[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_fword_vld" type="logic">
+         <obj_property name="ElementShortName">o_fword_vld</obj_property>
+         <obj_property name="ObjectShortName">o_fword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_pword" type="array">
+         <obj_property name="ElementShortName">o_pword[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_pword[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_pword_vld" type="logic">
+         <obj_property name="ElementShortName">o_pword_vld</obj_property>
+         <obj_property name="ObjectShortName">o_pword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_mode" type="array">
+         <obj_property name="ElementShortName">o_mode[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_mode[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_mode_vld" type="logic">
+         <obj_property name="ElementShortName">o_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">o_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_dds_duty" type="array">
+         <obj_property name="ElementShortName">o_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">o_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">o_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/o_pay_dds_data" type="array">
+         <obj_property name="ElementShortName">o_pay_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">o_pay_dds_data[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/r_dds_offset" type="array">
+         <obj_property name="ElementShortName">r_dds_offset[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds_offset[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_run" type="logic">
+         <obj_property name="ElementShortName">ro_run</obj_property>
+         <obj_property name="ObjectShortName">ro_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_run_vld" type="logic">
+         <obj_property name="ElementShortName">ro_run_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_fword" type="array">
+         <obj_property name="ElementShortName">ro_fword[26:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_fword[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_fword_vld" type="logic">
+         <obj_property name="ElementShortName">ro_fword_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_fword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_pword" type="array">
+         <obj_property name="ElementShortName">ro_pword[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_pword[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_pword_vld" type="logic">
+         <obj_property name="ElementShortName">ro_pword_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_pword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_mode" type="array">
+         <obj_property name="ElementShortName">ro_mode[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_mode[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_mode_vld" type="logic">
+         <obj_property name="ElementShortName">ro_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_dds_duty" type="array">
+         <obj_property name="ElementShortName">ro_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">ro_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">ro_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_pay_dds_data" type="array">
+         <obj_property name="ElementShortName">ro_pay_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_pay_dds_data[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_pay_dds_data_mul" type="array">
+         <obj_property name="ElementShortName">ro_pay_dds_data_mul[25:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_pay_dds_data_mul[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ro_pay_dds_data_div_mul" type="array">
+         <obj_property name="ElementShortName">ro_pay_dds_data_div_mul[25:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_pay_dds_data_div_mul[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/ri_dds_frq_vld" type="logic">
+         <obj_property name="ElementShortName">ri_dds_frq_vld</obj_property>
+         <obj_property name="ObjectShortName">ri_dds_frq_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/r_amp_rec" type="array">
+         <obj_property name="ElementShortName">r_amp_rec[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_amp_rec[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/r_shift_frq" type="array">
+         <obj_property name="ElementShortName">r_shift_frq[42:0]</obj_property>
+         <obj_property name="ObjectShortName">r_shift_frq[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_ctrl_u0/P_CNT" type="array">
+         <obj_property name="ElementShortName">P_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_CNT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group880" type="group">
+      <obj_property name="label">dds_drive</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_run" type="logic">
+         <obj_property name="ElementShortName">i_run</obj_property>
+         <obj_property name="ObjectShortName">i_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_run_vld" type="logic">
+         <obj_property name="ElementShortName">i_run_vld</obj_property>
+         <obj_property name="ObjectShortName">i_run_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_fword" type="array">
+         <obj_property name="ElementShortName">i_fword[26:0]</obj_property>
+         <obj_property name="ObjectShortName">i_fword[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_fword_vld" type="logic">
+         <obj_property name="ElementShortName">i_fword_vld</obj_property>
+         <obj_property name="ObjectShortName">i_fword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_pword" type="array">
+         <obj_property name="ElementShortName">i_pword[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_pword[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_pword_vld" type="logic">
+         <obj_property name="ElementShortName">i_pword_vld</obj_property>
+         <obj_property name="ObjectShortName">i_pword_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_mode" type="array">
+         <obj_property name="ElementShortName">i_mode[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_mode[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_mode_vld" type="logic">
+         <obj_property name="ElementShortName">i_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">i_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_dds_duty" type="array">
+         <obj_property name="ElementShortName">i_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/i_dds_duty_vld" type="logic">
+         <obj_property name="ElementShortName">i_dds_duty_vld</obj_property>
+         <obj_property name="ObjectShortName">i_dds_duty_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/o_dds_data" type="array">
+         <obj_property name="ElementShortName">o_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds_data[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ri_run" type="logic">
+         <obj_property name="ElementShortName">ri_run</obj_property>
+         <obj_property name="ObjectShortName">ri_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ro_dds_data" type="array">
+         <obj_property name="ElementShortName">ro_dds_data[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds_data[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ri_fword" type="array">
+         <obj_property name="ElementShortName">ri_fword[26:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_fword[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ri_pword" type="array">
+         <obj_property name="ElementShortName">ri_pword[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_pword[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/r_freq_acc" type="array">
+         <obj_property name="ElementShortName">r_freq_acc[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_freq_acc[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ri_mode" type="array">
+         <obj_property name="ElementShortName">ri_mode[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_mode[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/r_rom_addr" type="array">
+         <obj_property name="ElementShortName">r_rom_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_rom_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/ri_dds_duty" type="array">
+         <obj_property name="ElementShortName">ri_dds_duty[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_dds_duty[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/w_dout_sin" type="array">
+         <obj_property name="ElementShortName">w_dout_sin[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dout_sin[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/w_dout_squ" type="array">
+         <obj_property name="ElementShortName">w_dout_squ[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dout_squ[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/w_dout_tri" type="array">
+         <obj_property name="ElementShortName">w_dout_tri[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dout_tri[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/w_dout_saw" type="array">
+         <obj_property name="ElementShortName">w_dout_saw[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dout_saw[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pc_to_dds/top_u0/dds_single_channel_top_u0/dds_drive_u0/w_dout_lfsr" type="array">
+         <obj_property name="ElementShortName">w_dout_lfsr[13:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dout_lfsr[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

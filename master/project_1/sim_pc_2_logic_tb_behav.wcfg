@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SIM_udp_down_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SIM_udp_down_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="84805000000fs"></ZoomStartTime>
+      <ZoomEndTime time="87055000001fs"></ZoomEndTime>
+      <Cursor1Time time="74215000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="337"></NameColumnWidth>
+      <ValueColumnWidth column_width="234"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wave_markers>
+      <marker time="4796760000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group1268" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/SIM_udp_down_TB/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/r_udp_len" type="array">
+         <obj_property name="ElementShortName">r_udp_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_udp_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/r_udp_data" type="array">
+         <obj_property name="ElementShortName">r_udp_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_udp_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/r_udp_last" type="logic">
+         <obj_property name="ElementShortName">r_udp_last</obj_property>
+         <obj_property name="ObjectShortName">r_udp_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/r_udp_valid" type="logic">
+         <obj_property name="ElementShortName">r_udp_valid</obj_property>
+         <obj_property name="ObjectShortName">r_udp_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_scope_channel" type="array">
+         <obj_property name="ElementShortName">w_scope_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_scope_channel[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_trigger_coupling" type="array">
+         <obj_property name="ElementShortName">w_trigger_coupling[1:0]</obj_property>
+         <obj_property name="ObjectShortName">w_trigger_coupling[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_trigger_coupling_vld" type="logic">
+         <obj_property name="ElementShortName">w_trigger_coupling_vld</obj_property>
+         <obj_property name="ObjectShortName">w_trigger_coupling_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_trigger_mode" type="array">
+         <obj_property name="ElementShortName">w_trigger_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">w_trigger_mode[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_trigger_mode_vld" type="logic">
+         <obj_property name="ElementShortName">w_trigger_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">w_trigger_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_post_tri_coup_mode" type="array">
+         <obj_property name="ElementShortName">w_post_tri_coup_mode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_post_tri_coup_mode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_post_tri_coup_mode_vld" type="logic">
+         <obj_property name="ElementShortName">w_post_tri_coup_mode_vld</obj_property>
+         <obj_property name="ObjectShortName">w_post_tri_coup_mode_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds_custom_channel" type="array">
+         <obj_property name="ElementShortName">w_dds_custom_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds_custom_channel[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds_custom_len" type="array">
+         <obj_property name="ElementShortName">w_dds_custom_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds_custom_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds_custom_data" type="array">
+         <obj_property name="ElementShortName">w_dds_custom_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds_custom_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds_custom_last" type="logic">
+         <obj_property name="ElementShortName">w_dds_custom_last</obj_property>
+         <obj_property name="ObjectShortName">w_dds_custom_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds_custom_valid" type="logic">
+         <obj_property name="ElementShortName">w_dds_custom_valid</obj_property>
+         <obj_property name="ObjectShortName">w_dds_custom_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_araddr" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arburst" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arcache" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arid" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arlen" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arlock" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arprot" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arqos" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_arready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arsize" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_arvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_arvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awaddr" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awburst" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awcache" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awid" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awlen" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awlock" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awprot" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awqos" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_awready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awsize" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_awvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_awvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_bid" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_bid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_bready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_bready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_bresp" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_bvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_bvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rdata" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rid" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rlast" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_rlast</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_rready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rresp" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_rvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_rvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_wdata" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_wlast" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_wlast</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_wready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_wready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_wstrb" type="array">
+         <obj_property name="ElementShortName">S00_AXI_0_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S00_AXI_0_wvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_0_wvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_0_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_araddr" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arburst" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arcache" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arid" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arlen" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arlock" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arprot" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arqos" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arready" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_arready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arsize" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_arvalid" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_arvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awaddr" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awburst" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awcache" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awid" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awlen" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awlock" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awprot" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awqos" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awready" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_awready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awsize" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_awvalid" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_awvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_bid" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_bid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_bready" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_bready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_bresp" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_bvalid" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_bvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rdata" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rlast" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_rlast</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rlast</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rvalid" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_rvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rid" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rready" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_rready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_rresp" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_wdata" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_wlast" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_wlast</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_wready" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_wready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_wstrb" type="array">
+         <obj_property name="ElementShortName">S01_AXI_0_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/S01_AXI_0_wvalid" type="logic">
+         <obj_property name="ElementShortName">S01_AXI_0_wvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_0_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds0_data" type="array">
+         <obj_property name="ElementShortName">w_dds0_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds0_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds1_data" type="array">
+         <obj_property name="ElementShortName">w_dds1_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_dds1_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds0_valid" type="logic">
+         <obj_property name="ElementShortName">w_dds0_valid</obj_property>
+         <obj_property name="ObjectShortName">w_dds0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_dds1_valid" type="logic">
+         <obj_property name="ElementShortName">w_dds1_valid</obj_property>
+         <obj_property name="ObjectShortName">w_dds1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/w_mig_initcomplete" type="logic">
+         <obj_property name="ElementShortName">w_mig_initcomplete</obj_property>
+         <obj_property name="ObjectShortName">w_mig_initcomplete</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1378" type="group">
+      <obj_property name="label">MASTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/i_init_calib_complete" type="logic">
+         <obj_property name="ElementShortName">i_init_calib_complete</obj_property>
+         <obj_property name="ObjectShortName">i_init_calib_complete</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awid" type="array">
+         <obj_property name="ElementShortName">m_axi_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axi_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awlen" type="array">
+         <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awsize" type="array">
+         <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awburst" type="array">
+         <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awlock" type="array">
+         <obj_property name="ElementShortName">m_axi_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awcache" type="array">
+         <obj_property name="ElementShortName">m_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awprot" type="array">
+         <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awqos" type="array">
+         <obj_property name="ElementShortName">m_axi_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_awready" type="logic">
+         <obj_property name="ElementShortName">m_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_wready" type="logic">
+         <obj_property name="ElementShortName">m_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_bid" type="array">
+         <obj_property name="ElementShortName">m_axi_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_bresp" type="array">
+         <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_bready" type="logic">
+         <obj_property name="ElementShortName">m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arid" type="array">
+         <obj_property name="ElementShortName">m_axi_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">m_axi_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arlen" type="array">
+         <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arsize" type="array">
+         <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arburst" type="array">
+         <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arlock" type="array">
+         <obj_property name="ElementShortName">m_axi_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arcache" type="array">
+         <obj_property name="ElementShortName">m_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arprot" type="array">
+         <obj_property name="ElementShortName">m_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arqos" type="array">
+         <obj_property name="ElementShortName">m_axi_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_arready" type="logic">
+         <obj_property name="ElementShortName">m_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rid" type="array">
+         <obj_property name="ElementShortName">m_axi_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rresp" type="array">
+         <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/s_axis_data" type="array">
+         <obj_property name="ElementShortName">s_axis_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/s_axis_user" type="array">
+         <obj_property name="ElementShortName">s_axis_user[23:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_user[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/s_axis_last" type="logic">
+         <obj_property name="ElementShortName">s_axis_last</obj_property>
+         <obj_property name="ObjectShortName">s_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/s_axis_valid" type="logic">
+         <obj_property name="ElementShortName">s_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/s_axis_ready" type="logic">
+         <obj_property name="ElementShortName">s_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_st_current" type="array">
+         <obj_property name="ElementShortName">r_st_current[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_current[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_st_next" type="array">
+         <obj_property name="ElementShortName">r_st_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_st_cnt" type="array">
+         <obj_property name="ElementShortName">r_st_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awid" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awlen" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awsize" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awburst" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awlock" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awcache" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awprot" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awqos" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_bready" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arid" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arlen" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arsize" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arburst" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arlock" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arcache" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arprot" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arqos" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ro_m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ri_m_axi_rid" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ri_m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ri_m_axi_rresp" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ri_m_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">ri_m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/ri_m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">ri_m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_read_cnt" type="array">
+         <obj_property name="ElementShortName">r_read_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_read_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/rs_axis_data" type="array">
+         <obj_property name="ElementShortName">rs_axis_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_axis_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/rs_axis_user" type="array">
+         <obj_property name="ElementShortName">rs_axis_user[23:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_axis_user[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/rs_axis_last" type="logic">
+         <obj_property name="ElementShortName">rs_axis_last</obj_property>
+         <obj_property name="ObjectShortName">rs_axis_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/rs_axis_valid" type="logic">
+         <obj_property name="ElementShortName">rs_axis_valid</obj_property>
+         <obj_property name="ObjectShortName">rs_axis_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_data_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_channel_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_channel_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_channel_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_data_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_data_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_data_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_channel_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_channel_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_channel_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_run" type="logic">
+         <obj_property name="ElementShortName">r_run</obj_property>
+         <obj_property name="ObjectShortName">r_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_channel_dout" type="array">
+         <obj_property name="ElementShortName">r_fifo_channel_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_channel_dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_wdata_cnt" type="array">
+         <obj_property name="ElementShortName">r_wdata_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_wdata_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_fifo_r_cnt" type="array">
+         <obj_property name="ElementShortName">r_fifo_r_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_r_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/r_w_run" type="logic">
+         <obj_property name="ElementShortName">r_w_run</obj_property>
+         <obj_property name="ObjectShortName">r_w_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_aw_act" type="logic">
+         <obj_property name="ElementShortName">w_aw_act</obj_property>
+         <obj_property name="ObjectShortName">w_aw_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_w_act" type="logic">
+         <obj_property name="ElementShortName">w_w_act</obj_property>
+         <obj_property name="ObjectShortName">w_w_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_br_act" type="logic">
+         <obj_property name="ElementShortName">w_br_act</obj_property>
+         <obj_property name="ObjectShortName">w_br_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_ar_act" type="logic">
+         <obj_property name="ElementShortName">w_ar_act</obj_property>
+         <obj_property name="ObjectShortName">w_ar_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_r_act" type="logic">
+         <obj_property name="ElementShortName">w_r_act</obj_property>
+         <obj_property name="ObjectShortName">w_r_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_data_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_data_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_channel_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_channel_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_channel_dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_data_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_channel_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_channel_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_channel_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_data_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_data_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_data_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/w_fifo_channel_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_channel_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_channel_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/P_ST_INIT" type="array">
+         <obj_property name="ElementShortName">P_ST_INIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_INIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/P_ST_IDLE" type="array">
+         <obj_property name="ElementShortName">P_ST_IDLE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_IDLE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/P_ST_WRITE" type="array">
+         <obj_property name="ElementShortName">P_ST_WRITE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_WRITE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/P_ST_READ" type="array">
+         <obj_property name="ElementShortName">P_ST_READ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_READ[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/AXI_Master_Drive_u0/P_LEN" type="array">
+         <obj_property name="ElementShortName">P_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_LEN[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1521" type="group">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_rst" type="logic">
+         <obj_property name="ElementShortName">i_rst</obj_property>
+         <obj_property name="ObjectShortName">i_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_init_calib_complete" type="logic">
+         <obj_property name="ElementShortName">i_init_calib_complete</obj_property>
+         <obj_property name="ObjectShortName">i_init_calib_complete</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awid" type="array">
+         <obj_property name="ElementShortName">m_axi_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axi_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awlen" type="array">
+         <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awsize" type="array">
+         <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awburst" type="array">
+         <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awlock" type="array">
+         <obj_property name="ElementShortName">m_axi_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awcache" type="array">
+         <obj_property name="ElementShortName">m_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awprot" type="array">
+         <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awqos" type="array">
+         <obj_property name="ElementShortName">m_axi_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_awready" type="logic">
+         <obj_property name="ElementShortName">m_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_wready" type="logic">
+         <obj_property name="ElementShortName">m_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_bid" type="array">
+         <obj_property name="ElementShortName">m_axi_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_bresp" type="array">
+         <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_bready" type="logic">
+         <obj_property name="ElementShortName">m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arid" type="array">
+         <obj_property name="ElementShortName">m_axi_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">m_axi_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arlen" type="array">
+         <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arsize" type="array">
+         <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arburst" type="array">
+         <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arlock" type="array">
+         <obj_property name="ElementShortName">m_axi_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arcache" type="array">
+         <obj_property name="ElementShortName">m_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arprot" type="array">
+         <obj_property name="ElementShortName">m_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arqos" type="array">
+         <obj_property name="ElementShortName">m_axi_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_arready" type="logic">
+         <obj_property name="ElementShortName">m_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rid" type="array">
+         <obj_property name="ElementShortName">m_axi_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rresp" type="array">
+         <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_rst_50M" type="logic">
+         <obj_property name="ElementShortName">i_rst_50M</obj_property>
+         <obj_property name="ObjectShortName">i_rst_50M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_dds_number" type="array">
+         <obj_property name="ElementShortName">i_dds_number[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_dds_number[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_dss_number_valid" type="logic">
+         <obj_property name="ElementShortName">i_dss_number_valid</obj_property>
+         <obj_property name="ObjectShortName">i_dss_number_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/o_dds0_data" type="array">
+         <obj_property name="ElementShortName">o_dds0_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds0_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/o_dds0_valid" type="logic">
+         <obj_property name="ElementShortName">o_dds0_valid</obj_property>
+         <obj_property name="ObjectShortName">o_dds0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/o_dds1_data" type="array">
+         <obj_property name="ElementShortName">o_dds1_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/o_dds1_valid" type="logic">
+         <obj_property name="ElementShortName">o_dds1_valid</obj_property>
+         <obj_property name="ObjectShortName">o_dds1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_st_cnt" type="array">
+         <obj_property name="ElementShortName">r_st_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awid" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awaddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awaddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awlen" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awsize" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awburst" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awlock" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awcache" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awprot" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awqos" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_bready" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arid" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_araddr[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_araddr[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arlen" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arsize" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arburst" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arlock" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arcache" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arprot" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_arqos" type="array">
+         <obj_property name="ElementShortName">ro_m_axi_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">ro_m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">ro_m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_m_axi_rid" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_m_axi_rresp" type="array">
+         <obj_property name="ElementShortName">ri_m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_m_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">ri_m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">ri_m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">ri_m_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_read_cnt" type="array">
+         <obj_property name="ElementShortName">r_read_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_read_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/i_clk_50M" type="logic">
+         <obj_property name="ElementShortName">i_clk_50M</obj_property>
+         <obj_property name="ObjectShortName">i_clk_50M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_dds0_data" type="array">
+         <obj_property name="ElementShortName">ro_dds0_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds0_data[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_dds0_valid" type="logic">
+         <obj_property name="ElementShortName">ro_dds0_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_dds0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_dds1_data" type="array">
+         <obj_property name="ElementShortName">ro_dds1_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_data[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds0_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds0_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds0_empty</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_st_next" type="array">
+         <obj_property name="ElementShortName">r_st_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_next[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_st_current" type="array">
+         <obj_property name="ElementShortName">r_st_current[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_st_current[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds1_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds1_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds1_empty</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ro_dds1_valid" type="logic">
+         <obj_property name="ElementShortName">ro_dds1_valid</obj_property>
+         <obj_property name="ObjectShortName">ro_dds1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds0_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds0_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds0_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds1_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds1_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds1_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds0_wren" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds0_wren</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds0_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds0_wren_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds0_wren_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds0_wren_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds1_wren" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds1_wren</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds1_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds1_wren_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_dds1_wren_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds1_wren_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/ri_dds_number" type="array">
+         <obj_property name="ElementShortName">ri_dds_number[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ri_dds_number[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_rfifo_flag" type="array">
+         <obj_property name="ElementShortName">r_rfifo_flag[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_rfifo_flag[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_dds_data" type="array">
+         <obj_property name="ElementShortName">r_dds_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_rdata_rden" type="logic">
+         <obj_property name="ElementShortName">r_fifo_rdata_rden</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_rdata_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_rdata_rden_1d" type="logic">
+         <obj_property name="ElementShortName">r_fifo_rdata_rden_1d</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_rdata_rden_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_width_cnt" type="array">
+         <obj_property name="ElementShortName">r_width_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_width_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_width_run" type="logic">
+         <obj_property name="ElementShortName">r_width_run</obj_property>
+         <obj_property name="ObjectShortName">r_width_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds0_empty" type="array">
+         <obj_property name="ElementShortName">r_fifo_dds0_empty[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds0_empty[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds1_empty" type="array">
+         <obj_property name="ElementShortName">r_fifo_dds1_empty[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds1_empty[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds0_empty_1d" type="array">
+         <obj_property name="ElementShortName">r_fifo_dds0_empty_1d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds0_empty_1d[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_dds1_empty_1d" type="array">
+         <obj_property name="ElementShortName">r_fifo_dds1_empty_1d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_dds1_empty_1d[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_dds0_wcnt" type="array">
+         <obj_property name="ElementShortName">r_dds0_wcnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds0_wcnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_dds1_wcnt" type="array">
+         <obj_property name="ElementShortName">r_dds1_wcnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dds1_wcnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_dds_wend" type="logic">
+         <obj_property name="ElementShortName">r_dds_wend</obj_property>
+         <obj_property name="ObjectShortName">r_dds_wend</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_dds_wend_1d" type="logic">
+         <obj_property name="ElementShortName">r_dds_wend_1d</obj_property>
+         <obj_property name="ObjectShortName">r_dds_wend_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_start1" type="logic">
+         <obj_property name="ElementShortName">r_start1</obj_property>
+         <obj_property name="ObjectShortName">r_start1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_start1_cnt" type="array">
+         <obj_property name="ElementShortName">r_start1_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_start1_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_start2" type="logic">
+         <obj_property name="ElementShortName">r_start2</obj_property>
+         <obj_property name="ObjectShortName">r_start2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_start2_cnt" type="array">
+         <obj_property name="ElementShortName">r_start2_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_start2_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_setup1" type="logic">
+         <obj_property name="ElementShortName">r_setup1</obj_property>
+         <obj_property name="ObjectShortName">r_setup1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_setup2" type="logic">
+         <obj_property name="ElementShortName">r_setup2</obj_property>
+         <obj_property name="ObjectShortName">r_setup2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_fifo_read_cnt" type="array">
+         <obj_property name="ElementShortName">r_fifo_read_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_read_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/r_axis_rcnt" type="array">
+         <obj_property name="ElementShortName">r_axis_rcnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_axis_rcnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_aw_act" type="logic">
+         <obj_property name="ElementShortName">w_aw_act</obj_property>
+         <obj_property name="ObjectShortName">w_aw_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_w_act" type="logic">
+         <obj_property name="ElementShortName">w_w_act</obj_property>
+         <obj_property name="ObjectShortName">w_w_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_br_act" type="logic">
+         <obj_property name="ElementShortName">w_br_act</obj_property>
+         <obj_property name="ObjectShortName">w_br_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_ar_act" type="logic">
+         <obj_property name="ElementShortName">w_ar_act</obj_property>
+         <obj_property name="ObjectShortName">w_ar_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_r_act" type="logic">
+         <obj_property name="ElementShortName">w_r_act</obj_property>
+         <obj_property name="ObjectShortName">w_r_act</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds0_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_dds0_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds0_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds1_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_dds1_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds1_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds0_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds0_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds0_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds1_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds1_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds1_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_rdata_dout" type="array">
+         <obj_property name="ElementShortName">w_fifo_rdata_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_rdata_dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_rdata_full" type="logic">
+         <obj_property name="ElementShortName">w_fifo_rdata_full</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_rdata_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_rdata_empty" type="logic">
+         <obj_property name="ElementShortName">w_fifo_rdata_empty</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_rdata_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds0_wren" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds0_wren</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds0_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds1_wren" type="logic">
+         <obj_property name="ElementShortName">w_fifo_dds1_wren</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds1_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds0_cnt" type="array">
+         <obj_property name="ElementShortName">w_fifo_dds0_cnt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds0_cnt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/w_fifo_dds1_cnt" type="array">
+         <obj_property name="ElementShortName">w_fifo_dds1_cnt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_fifo_dds1_cnt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/s_axis_ready" type="logic">
+         <obj_property name="ElementShortName">s_axis_ready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_DDS_NUMBER" type="array">
+         <obj_property name="ElementShortName">P_DDS_NUMBER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_DDS_NUMBER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_FIFO_NUMBER" type="array">
+         <obj_property name="ElementShortName">P_FIFO_NUMBER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_FIFO_NUMBER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_ST_INIT" type="array">
+         <obj_property name="ElementShortName">P_ST_INIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_INIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_ST_IDLE" type="array">
+         <obj_property name="ElementShortName">P_ST_IDLE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_IDLE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_ST_WRITE" type="array">
+         <obj_property name="ElementShortName">P_ST_WRITE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_WRITE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_ST_READ" type="array">
+         <obj_property name="ElementShortName">P_ST_READ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ST_READ[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SIM_udp_down_TB/DDR_Ctrl_u0/P_LEN" type="array">
+         <obj_property name="ElementShortName">P_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_LEN[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

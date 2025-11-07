@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log FIFO_16X16_2CLK.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIFO_16X16_2CLK.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source FIFO_16X16_2CLK.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP FIFO_16X16_2CLK, cache-ID = a9c16ab0f8e4e467.
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  2 20:40:31 2025...

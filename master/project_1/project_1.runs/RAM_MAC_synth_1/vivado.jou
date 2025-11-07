@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  2 20:40:26 2025
+# Process ID: 18820
+# Current directory: E:/a000_real/logic_eth/project_1/project_1.runs/RAM_MAC_synth_1
+# Command line: vivado.exe -log RAM_MAC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM_MAC.tcl
+# Log file: E:/a000_real/logic_eth/project_1/project_1.runs/RAM_MAC_synth_1/RAM_MAC.vds
+# Journal file: E:/a000_real/logic_eth/project_1/project_1.runs/RAM_MAC_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RAM_MAC.tcl -notrace

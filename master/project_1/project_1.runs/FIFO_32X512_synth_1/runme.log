@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log FIFO_32X512.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIFO_32X512.tcl
+

@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log RAM_8x1500_TrueDual.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM_8x1500_TrueDual.tcl
+
